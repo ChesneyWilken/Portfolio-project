@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Chesney's Compendium</title>
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:500,700">
-    <link rel="shortcut icon" href="./resources/images/logo-bw-150.png">
+    <link rel="shortcut icon" href="./resources/images/logo_transparent_mix2.png">
     <link rel="stylesheet" href="./resources/css/hover.css">
-    <link rel="stylesheet" href="./resources/css/animate.css">
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <!-- End of stylesheets-->
@@ -22,28 +21,40 @@
     <header>
       <nav>
         <div class="logo">
-          <img src="./resources/images/logo-bw-150.png" alt="">
-          <p>Create Design</p>
+          <img src="./resources/images/logo_transparent_mix2.png" alt="Logo">
+          <p>Chesney Wilken</p>
         </div>
         <div class="menu-items">
           <ul>
             <li><a class="hvr-underline-from-left" href="#my-work-jump">My Work</a></li>
             <li><a class="hvr-underline-from-left" href="#about-me-jump">About Me</a></li>
-            <li><a class="hvr-underline-from-left" href="#">Contact</a></li>
+            <li><a class="hvr-underline-from-left" href="./contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <!-- Landing content first section -->
+       <!-- About me -->
 
-    <section class="intro">
-      <div class="container">
-        <div class="banner" role="banner">
-          <img src="./resources/images/create-crop-2.png" alt="Create hand drawn banner"/>
+      <section class="about-me" id="about-me-jump">
+        <div class="continer">
+          <h1>About Me</h1>
+          <div class="row">
+            <div class="about-me-content">
+              <div class="about-me-img">
+                <img src="./resources/images/about-me.jpg" alt="Photo of the web designer">
+              </div>
+              <div class="about-me-text">
+                <p>As a former e-Commerce manager, I have a unique understanding of the industry and a proven track record of success in driving business growth and delivering results. However, I found a love for the technical side of e-Commerce and decided to switch career course and become a developer. I'm now skilled in HTML5, CSS3, and JavaScript, and have a deep understanding of the SASS platform Shopify. My problem-solving abilities and strong communication skills make me a valuable asset to any development team.</p>
+                <br>
+                <p>I received my BSc degree from Loughborough University where I played cricket for the MCCU academy. My experience has taught me the importance of adaptability and people management. I am a team player who is able to work effectively with cross-functional teams and to drive projects to completion.</p>
+                <br>
+                <p>I'm excited for the challenges and opportunities ahead as I continue my career as a developer. I look forward to making a meaningful impact in any new role.</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
 <!-- Second section featured work -->
 
@@ -57,12 +68,15 @@
 
             <div class="box">
               <div class="featured-img">
-                <img src="./resources/images/feature-1.jpg" alt="Colmar Academy campus">
+                <img src="./resources/images/colmar-academy.jpg" alt="Colmar Academy campus">
               </div>
               <div class="featured-text">
                 <h2>Colmar Academy</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor.</p>
-                <button class="small-btn" name="button"><a href="https://chesneywilken.github.io/Colmar-Academy/">See More</a></button>
+                <div>
+                  <button class="small-btn" name="button"><a href="https://chesneywilken.github.io/Colmar-Academy/" target="_blank">View Project</a></button>
+                  <button class="small-btn" name="button"><a href="https://github.com/ChesneyWilken/Colmar-Academy" target="_blank">View Repository</a></button>
+                </div>
               </div>
             </div>
 
@@ -70,47 +84,83 @@
 
             <div class="box">
               <div class="featured-img">
-                <img src="./resources/images/feature-2.jpg" alt="Camera lens looking over a mountainous lake">
+                <img src="./resources/images/fotomatic.jpg" alt="Camera lens looking over a mountainous lake">
               </div>
               <div class="featured-text">
                 <h2>Fotomatic</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor.</p>
-                <button class="small-btn" name="button"><a href="https://chesneywilken.github.io/Fotomatic/">See More</a></button>
+                <div>
+                  <button class="small-btn" name="button"><a href="https://chesneywilken.github.io/Fotomatic/" target="_blank">View Project</a></button>
+                  <button class="small-btn" name="button"><a href="https://github.com/ChesneyWilken/Fotomatic" target="_blank">View Repository</a></button>
+                </div>
+
               </div>
             </div>
 
-            <!-- box 3 NOTES: The button in the box doesn't have a link because there is no contet to link it to. I have styled it to look the same for illustrative purposes-->
+            <!-- box 3-->
             
             <div class="box">
               <div class="featured-img">
-                <img src="./resources/images/feature-3.jpg" alt="Grey mug filled with fruit tea">
+                <img src="./resources/images/Memory-game.png" alt="Memory Game Tiles">
               </div>
               <div class="featured-text">
-                <h2>Tea Cozy</h2>
+                <h2>Memory Game</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor.</p>
-                <button class="small-btn" name="button"><a href="#">See More</a></button>
+                <div>
+                  <button class="small-btn" name="button"><a href="https://chesneywilken.github.io/Memory-Game/">View Project</a></button>
+                  <button class="small-btn" name="button"><a href="https://github.com/ChesneyWilken/Memory-Game">View Repository</a></button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-  <!-- Third section about me -->
-
-      <section class="about-me" id="about-me-jump">
-        <div class="continer">
-          <h1>About Me</h1>
           <div class="row">
-            <div class="about-me-content">
-              <div class="about-me-img">
-                <img src="./resources/images/about-me.jpg" alt="Photo of the web designer">
+
+            <!-- box 4 -->
+            <div class="box">
+              <div class="featured-img">
+                <img src="./resources/images/arcade-game.png" alt="Arcade Game">
               </div>
-              <div class="about-me-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci eu lobortis elementum nibh tellus molestie nunc non. Sed cras ornare arcu dui vivamus arcu. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et.</p>
-                <br>
-                <p>Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="featured-text">
+                <h2>Arcade Game</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor.</p>
+                <div>
+                  <button class="small-btn" name="button"><a href="https://chesneywilken.github.io/Arcade-Game/" target="_blank">View Project</a></button>
+                  <button class="small-btn" name="button"><a href="https://github.com/ChesneyWilken/Arcade-Game" target="_blank">View Repository</a></button>
+                </div>
               </div>
             </div>
+
+            <!-- box 5 -->
+            <div class="box">
+              <div class="featured-img">
+                <img src="./resources/images/coming-soon.png" alt="coming soon">
+              </div>
+              <div class="featured-text">
+                <h2>Simple Calculator</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor.</p>
+                <div>
+                  <button class="small-btn" name="button"><a href="" target="_blank">View Project</a></button>
+                  <button class="small-btn" name="button"><a href="" target="_blank">View Repository</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- box 6 -->
+            <div class="box">
+              <div class="featured-img">
+                <img src="./resources/images/coming-soon.png" alt="coming soon">
+              </div>
+              <div class="featured-text">
+                <h2>TBC</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum dolor.</p>
+                <div>
+                  <button class="small-btn" name="button"><a href="https://chesneywilken.github.io/Colmar-Academy/" target="_blank">View Project</a></button>
+                  <button class="small-btn" name="button"><a href="https://github.com/ChesneyWilken/Colmar-Academy" target="_blank">View Repository</a></button>
+                </div>
+              </div>
+            </div>
+
+                        
           </div>
         </div>
       </section>
@@ -122,12 +172,10 @@
     <nav class="footer">
       <div class="info">
         <i class="far fa-copyright"></i>
-        <p>2019 Create Design.</p>
+        <p>2023 Chesney Wilken</p>
       </div>
       <ul>
-        <li class="hvr-underline-from-left">Legals</li>
-        <li class="hvr-underline-from-left">Privacy</li>
-        <li class="hvr-underline-from-left">Contact</li>
+        <li><a class="hvr-underline-from-left" href="./contact.html">Contact</a></li>
       </ul>
     </nav>
   </footer>
